@@ -539,7 +539,7 @@ $(document).ready(function(){
               formatter: function() {
                    // return '<img src="http://highcharts.com/demo/gfx/sun.png" /> <br>' + (6 - this.y);  
                    if((6 - this.y) != 1) return '<p style="color:black; font-size:15px">'+ datosTopOrd[(this.y-1)]["empresaTop"].toUpperCase()+'</p>' + (6 - this.y);  
-                   else return '<div class="img-container"><img src="./imagenes/trofeo.png" width="30" height="30"/></div><p style="color:#E5E512; font-size:20px; text-shadow: -2px -2px 1px #4A4A06;">'+ datosTopOrd[(this.y-1)]["empresaTop"].toUpperCase()+'</p>' + (6 - this.y);  
+                   else return '<div class="img-container"><img src="./imagenes/trofeo.png" width="80" height="60"/></div><p style="color:#E5E512; font-size:20px; text-shadow: -2px -2px 1px #4A4A06;">'+ datosTopOrd[(this.y-1)]["empresaTop"].toUpperCase()+'</p>' + (6 - this.y);  
               },
               style: {
                   fontSize: '50px',
